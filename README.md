@@ -11,13 +11,13 @@ create a command-line application that dynamically generates a professional READ
 - [Questions](#questions)
 ---
 ## User Story
-
+```md
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
-
+```
 ## Acceptance Criteria
-
+```md
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -33,7 +33,7 @@ WHEN I enter my email address
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
-
+```
 
 ## Installation
 You will need to install Node.js and the Inquirer package to run this program.
@@ -53,5 +53,5 @@ This project is covered under the following license(s):
 
 ---
 ## Questions?
-[brijeeta](https://www.github.com/brijeeta)
+GitHub:[brijeeta](https://www.github.com/brijeeta)
 Email: brijeeta@gmail.com
