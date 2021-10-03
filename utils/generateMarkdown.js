@@ -85,8 +85,11 @@ function generateMarkdown(data) {
     return `# ${data.title}
 ${allBadges}
 ## Description
+
 ${data.description}
+
 ## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contribution](#contribution)
@@ -94,13 +97,17 @@ ${data.description}
 - [License](#license)
 - [Questions](#questions)
 ---
+
 ## User Story
+
 ${'```md'}
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ${'```'}
+
 ## Acceptance Criteria
+
 ${'```md'}
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
@@ -120,25 +127,34 @@ THEN I am taken to the corresponding section of the README
 ${'```'}
 
 ## Installation
+
 ${data.installation}
----
+
 ## Usage
+
 The following animation demonstrates the application functionality:
+
 ![ReadmeGenertorDemo](./${data.demo})
----
+
 ## Contribution
+
 ${data.contribution}
----
+
 ## Testing Instructions
+
 ${data.test}
----
+
 ## License
+
 This project is covered under the following license(s):
+
 ${licenses}
----
+
 ## Questions?
-GitHub:[${data.githubId}](${url})
-Email: ${data.emailId}
+
+GitHub :[ ${data.githubId}](${url})
+
+Email : ${data.emailId}
 `;
 }
 
